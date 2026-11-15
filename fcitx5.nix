@@ -10,3 +10,8 @@ patch:
       Shift_L: inline_ascii
       Shift_R: inline_ascii
   '';
+
+
+
+  xdg.configFile."${rimeConfDir}/default.custom.yaml".text = ''
+patch:
